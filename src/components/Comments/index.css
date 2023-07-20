@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dee0e3;
+}
+
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .comment-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comment-form-container {
+    order: 1;
+    margin-top: 10px;
+  }
+}
+
+.input {
+  height: 30px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.textarea {
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.submit-btn {
+  height: 30px;
+  width: 150px;
+  background-color: #0284c7;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: Roboto;
+}
+
+.comment-count {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.count {
+  background-color: #0284c7;
+  padding: 2px 7px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.comment-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
